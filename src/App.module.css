@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+.app {
+  text-align: center;
+  font-family: 'Yeseva One', sans-serif;
+  height: 100vh;
+  background: linear-gradient(0deg, #ee7752, #ba2860, #082174, #2519a7);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	50% {
+		background-position: center;
+  }
+}
